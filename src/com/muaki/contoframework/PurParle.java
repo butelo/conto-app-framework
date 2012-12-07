@@ -1,6 +1,6 @@
 package com.muaki.contoframework;
 
-public interface Audio {
+public interface PurParle {
     
 }
 
