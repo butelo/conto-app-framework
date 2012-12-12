@@ -23,6 +23,7 @@ public class LoadingScreen extends Screen {
 		
 		
 //        fileName = "muakibooks/contodavaca/landscape/tituloconto.png";
+		
 
         
 		Assets.background = g.newPixmap("muakibooks/contodavaca/landscape/splash.png", PixmapFormat.RGB565);

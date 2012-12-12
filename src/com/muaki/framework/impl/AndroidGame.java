@@ -37,8 +37,13 @@ public abstract class AndroidGame extends Activity implements Game {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         boolean isLandscape = getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
-        int frameBufferWidth = isLandscape ? 480 : 320;
-        int frameBufferHeight = isLandscape ? 320 : 480;
+        
+//        Pois debe de ser aqui onde definimos o tamano do xogo
+        //pois si que e aqui 
+        
+        
+        int frameBufferWidth = isLandscape ? 720 : 480;
+        int frameBufferHeight = isLandscape ? 480 : 720;
         Bitmap frameBuffer = Bitmap.createBitmap(frameBufferWidth,
                 frameBufferHeight, Config.RGB_565);
         
