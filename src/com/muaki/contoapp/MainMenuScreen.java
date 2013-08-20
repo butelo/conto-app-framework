@@ -20,7 +20,6 @@ public class MainMenuScreen extends Screen {
 
 	public MainMenuScreen(Game game) {
 		super(game);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -54,7 +53,6 @@ public class MainMenuScreen extends Screen {
 //
 //			@Override
 //			public void run() {
-//				// TODO Auto-generated method stub
 		
 		seconds += deltaTime;
 		Log.d("dispose",
@@ -91,19 +89,16 @@ public class MainMenuScreen extends Screen {
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void resume() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void dispose() {
-		// TODO Auto-generated method stub
 		Log.d("dispose",
                 "liberar recursos" );
 //		g.clear(0);

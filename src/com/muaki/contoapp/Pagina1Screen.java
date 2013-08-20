@@ -13,7 +13,6 @@ public class Pagina1Screen extends Screen {
 
 	public Pagina1Screen(Game game) {
 		super(game);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -60,19 +59,16 @@ public class Pagina1Screen extends Screen {
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void resume() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void dispose() {
-		// TODO Auto-generated method stub
 
 	}
 
